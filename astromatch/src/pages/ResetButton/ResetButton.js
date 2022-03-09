@@ -4,7 +4,7 @@ import { reset } from "../../endpoints/query"
 import { Fab } from "@material-ui/core"
 import CachedIcon from '@material-ui/icons/Cached'
 
-export function ResetButton() {
+export default function ResetButton() {
 
     const onClickReset = async () => {
 
