@@ -4,6 +4,7 @@ import { ButtonsContainer, ContainerStyled } from "./styled"
 import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import { Container } from "@material-ui/core";
+import ResetButton from "../ResetButton/ResetButton";
 
 export function ProfileButton(props) {
 
@@ -12,6 +13,7 @@ export function ProfileButton(props) {
         <ContainerStyled>
             <Fab onClick={props.onClickYes} > <FavoriteBorderIcon /> </Fab>
             <Fab onClick={props.onClickNo} className="x-button"> <HighlightOffIcon /> </Fab>
+            <ResetButton/>
         </ContainerStyled>
 
     )
